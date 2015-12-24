@@ -20,6 +20,4 @@ function my_child_theme_setup() {
 // Use the after_setup_theme hook with a priority of 11 to load after the parent theme, which will fire on the default priority of 10.
 add_action( 'after_setup_theme', 'my_child_theme_setup', 11 );
 
-// Side widgets can be smaller.
-$GLOBALS['content_width'] = 358;
 ?> 

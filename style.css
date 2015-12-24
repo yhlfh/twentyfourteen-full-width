@@ -1,0 +1,103 @@
+/*
+ Theme Name:   Twenty Fourteen Full Width
+ Theme URI:    http://yhlfh.github.io/twentyfourteen-full-width/
+ Description:  A child theme to make Twenty Fourteen full width.
+ Author:       yhlfh
+ Author URI:   https://www.sundialdreams.com
+ Template:     twentyfourteen
+ Version:      0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+ Text Domain:  twentyfourteen-full-width
+*/
+
+@media screen and (min-width: 1281px) {
+	.site-header, .site {
+		max-width: 1440px;
+	}
+
+	.hentry {
+		max-width: 100%;
+	}
+
+	.site-content .entry-header,
+	.site-content .entry-content,
+	.site-content .entry-summary,
+	.site-content .entry-meta,
+	.page-content,
+	.comments-area {
+		max-width: 570px;
+	}
+
+	.archive-header,
+	.comments-area,
+	.image-navigation,
+	.page-header,
+	.page-content,
+	.post-navigation,
+	.site-content .entry-header,
+	.site-content .entry-content,
+	.site-content .entry-summary,
+	.site-content footer.entry-meta {
+		margin-left: 12.5%;
+		margin-right: -webkit-calc(12.5% -30px);
+		margin-right:         calc(12.5% - 30px);
+	}
+
+	.site-content blockquote.alignleft {
+		margin-left: -webkit-calc(-17% - 3px);
+		margin-left:         calc(-17% - 3px);
+	}
+
+	.site-content blockquote.alignright {
+		margin-right: -webkit-calc(-17% - 3px);
+		margin-right:         calc(-17% - 3px);
+	}
+	
+	.full-width .archive-header,
+	.full-width .comments-area,
+	.full-width .image-navigation,
+	.full-width .page-header,
+	.full-width .page-content,
+	.full-width .post-navigation,
+	.full-width .site-content .entry-header,
+	.full-width .site-content .entry-content,
+	.full-width .site-content .entry-summary,
+	.full-width .site-content footer.entry-meta {
+		margin-left: auto;
+	}
+}
+
+@media screen and (min-width: 1441px) {
+	.site-header, .site {
+		max-width: 1920px;
+	}
+
+	.site-content .entry-header,
+	.site-content .entry-content,
+	.site-content .entry-summary,
+	.site-content .entry-meta,
+	.page-content,
+	.comments-area {
+		max-width: 698px;
+	}
+
+	.site-content {
+		margin-right: 37.9%;
+	}
+
+	.content-sidebar {
+		margin-left: -37.9%;
+		width: 37.9%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.content-sidebar .widget {
+		width: -webkit-calc(50% - 45px);
+		width:         calc(50% - 45px);
+		float: left;
+		margin-left: 30px;
+	}
+}

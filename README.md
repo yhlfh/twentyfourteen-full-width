@@ -1,6 +1,6 @@
-# twentyfourteen-full-width
+# Twenty Fourteen Full Width
 
-A Twenty Fourteen child theme that explands to full width.
+A [Twenty Fourteen](https://wordpress.org/themes/twentyfourteen/) child theme that explands to full width.
 
 Everything looks the same as Twenty Fourteen when browser window width is <= 1280px.
 
@@ -17,4 +17,4 @@ See screenshot below.
 
 ## License
 
-GNU GPL v2 or later.
+GNU [GPL v2](LICENSE) or later.
